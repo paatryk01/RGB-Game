@@ -4,8 +4,8 @@
   "description": "",
   "main": "colorgame.js",
   "scripts": {
-    
-	"start": "node colorgame.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node colorgame.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/paatryk01/RGB-Game/issues"
   },
-  "homepage": "https://github.com/paatryk01/RGB-Game#readme"
+  "homepage": "https://github.com/paatryk01/RGB-Game#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
