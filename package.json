@@ -5,7 +5,7 @@
   "main": "colorgame.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node colorgame.js"
+    "start": "colorgame.html"
   },
   "repository": {
     "type": "git",
