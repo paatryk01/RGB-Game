@@ -1,0 +1,20 @@
+{
+  "name": "rgb_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "colorgame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node colorgame.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paatryk01/RGB-Game.git"
+  },
+  "author": "Patryk A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paatryk01/RGB-Game/issues"
+  },
+  "homepage": "https://github.com/paatryk01/RGB-Game#readme"
+}
