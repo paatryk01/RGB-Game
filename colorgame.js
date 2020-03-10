@@ -44,11 +44,11 @@ function setupModeButtons(){
 
 function setupSquares(){
 	for(var i = 0; i < squares.length; i++){
-		//add click listeners to squares
+		//Dodajemy zdarzenie kliknięcia w kwadrat.
 			squares[i].addEventListener("click", function(){
-			//grab color of clicked square
+			//Pobieramy wartość tła dla klikniętego elementu.
 			var clickedColor = this.style.backgroundColor;
-			//compare color to pickedColor
+			//Porównanie tła wybranego elementu z szukanym kolorem.
 			if(clickedColor === pickedColor){
 				messageDisplay.textContent = "Correct!";
 				changeColors(clickedColor);
@@ -88,24 +88,22 @@ function changeColors(color){
 	}
 }
 
-//Wybiera szukany kolor z 3 lub 6 opcji.
+//Wybieramy szukany kolor z 3, 6 lub 9 opcji.
 function pickColor(){
 	var random = Math.floor(Math.random() * colors.length);
 	return colors[random]
 }
+
 //Tworzymy tablicę z wcześniej wymyślonymi losowo numerami.
 function generateRandomColors(num){
-	//make an array
 	var arr = [];
-	//add num random colors to array
 	for(var i = 0; i < num; i++){
-	//get random color and push into arr
-	arr.push(randomColor());
+		arr.push(randomColor());
 	}
-	//return that array
 	return arr
 }
-//Losuje 3 wartośći rgb z których tworzy się jeden kolor rgb.
+
+//Losujemy 3 wartości rgb z których tworzy się jeden kolor rgb.
 function randomColor(){
 	var r = Math.floor(Math.random()*256);
 	var g = Math.floor(Math.random()*256);

@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #232323;
+	background: #232323;
 	margin:0;
 	font-family: "Montserrat", "Avenir";
 }
@@ -11,7 +11,7 @@ body {
 h1 {
 	color:white;
 	text-align: center;
-	background-color: steelblue;
+	background: steelblue;
 	margin:0;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -35,17 +35,17 @@ button {
 
 button:hover {
 	color:white;
-	background-color: steelblue;
+	background: steelblue;
 }
 
 .selected {
 	color:white;
-	background-color: steelblue;
+	background: steelblue;
 }
 
 .square {
 	width:30%;
-	background-color: purple;
+	background: purple;
 	padding-bottom: 30%;
 	float:left;
 	margin: 1.66%;
@@ -60,9 +60,8 @@ button:hover {
 	margin: 20px auto;
 }
 
-
 #stripe1 {
-	background-color: white;
+	background: white;
 	text-align: center;
 	height:30px;
 	margin:2px 0 0 0;
@@ -72,7 +71,7 @@ button:hover {
 }
 
 #stripe2 {
-	background-color: white;
+	background: white;
 	height: 30px;
 	margin: 2px 0 0 0;
 	display: flex;
@@ -81,7 +80,7 @@ button:hover {
 }
 
 #stripe3 {
-	background-color: white;
+	background: white;
 	height: 30px;
 	margin: 2px 0 0 0;
 	display: flex;
@@ -89,14 +88,11 @@ button:hover {
 	justify-content: center;
 }
 
-
 #colorDisplay {
 	font-size: 200%;
 }
-
 
 #message {
 	display: inline-block;
 	width:20%;
 }
-
